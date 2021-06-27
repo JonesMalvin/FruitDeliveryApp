@@ -1,8 +1,8 @@
 ion-content{
   --ion-background-color:#fff;
   font-family: Arial, Helvetica, sans-serif;
-
 }
+
 
 .background-pic{
   height: 100vh;
@@ -45,11 +45,14 @@ ion-card{
   }
 
   ion-card-subtitle{
-      color:#111;
+      color: #111;
       font-size: 14px;
       font-weight: 700;
+      max-width: 200px;
+      display: inline-block;
 
-      a{
+
+      strong{
           text-decoration: none;
           font-weight: bold;
           color: #198645;
@@ -71,7 +74,7 @@ ion-card{
               width:257px;
               height: 42px;
               border-radius: 15px;
-              border:  2px solid #198645;
+              border:  1px solid #198645;
               font-size: 14px;
               font-weight: 300;
               color:#555B5B;
@@ -83,7 +86,7 @@ ion-card{
       a{
           text-decoration: none;
           color:#589B3F;
-          font-weight: 600;
+          font-weight: 300;
           font-size: 13px;
       }
   }
@@ -109,8 +112,7 @@ ion-card{
       font-weight: 330;
       color: #111;
       a{
-          font-weight: 500;
-
+          font-weight:500;
       }
   }
   }
